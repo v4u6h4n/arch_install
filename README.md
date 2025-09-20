@@ -1,5 +1,5 @@
 # arch_install
-
+## firewall
 ufw:
 ```
 sudo pacman -S ufw
@@ -8,7 +8,7 @@ sudo ufw reload
 sudo systemctl enable ufw
 sudo systemctl start ufw
 ```
-package managers:
+## package managers:
 ```
 # flatpak
 sudo pacman -S flatpak
@@ -18,6 +18,7 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 ```
+## system restore
 snapper:
 ```
 sudo pacman -S snapper
@@ -40,7 +41,7 @@ snap-pac-grub:
 ```
 paru -S snap-pac-grub
 ```
-misc:
+## misc:
 ```
 sudo pacman -S amd-ucode
 ```
