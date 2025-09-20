@@ -22,7 +22,7 @@ snapper:
 ```
 sudo pacman -S snapper
 ```
-# brfs-assistant
+brfs-assistant
 ```
 paru -S btrfs-assistant
 ```
