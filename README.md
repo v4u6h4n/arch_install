@@ -4,7 +4,7 @@ ufw:
 ```
 sudo pacman -S ufw
 sudo ufw default deny
-sudo ufw reload
+sudo ufw enable
 sudo systemctl enable ufw
 sudo systemctl start ufw
 ```
