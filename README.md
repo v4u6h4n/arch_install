@@ -27,6 +27,9 @@ rm -rf paru
 snapper:
 ```
 sudo pacman -S snapper
+sudo snapper -c boot create-config /boot
+sudo snapper -c home create-config /home
+sudo snapper -c root create-config /
 ```
 brfs-assistant
 ```
