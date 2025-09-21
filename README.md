@@ -45,12 +45,14 @@ paru -S snap-pac-grub
 ```
 ## general
 ```
+# content creation
+flatpak install flathub com.core447.StreamController com.obsproject.Studio
 # internet
 flatpak install flathub com.discordapp.Discord org.mozilla.firefox
 # media
 flatpak install flathub org.fooyin.fooyin
 # productivity
-flatpak install flathub org.gimp.GIMP org.inkscape.Inkscape org.libreoffice.LibreOffice com.obsproject.Studio
+flatpak install flathub org.gimp.GIMP org.inkscape.Inkscape org.libreoffice.LibreOffice
 # utilities
 flatpak install flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox io.otsaloma.nfoview
 ```
