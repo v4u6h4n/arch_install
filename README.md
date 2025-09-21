@@ -8,10 +8,11 @@ sudo ufw reload
 sudo systemctl enable ufw
 sudo systemctl start ufw
 ```
-## package managers:
+## package management:
 ```
 # flatpak
 sudo pacman -S flatpak
+flatpak install flathub com.github.tchx84.Flatseal io.github.flattool.Warehouse
 # paru
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
@@ -41,6 +42,17 @@ sudo pacman -S snap-pac
 snap-pac-grub:
 ```
 paru -S snap-pac-grub
+```
+## general
+```
+# internet
+flatpak install flathub com.discordapp.Discord org.mozilla.firefox
+# media
+flatpak install flathub org.fooyin.fooyin
+# productivity
+flatpak install flathub org.gimp.GIMP org.inkscape.Inkscape org.libreoffice.LibreOffice com.obsproject.Studio
+# utilities
+flatpak install flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox io.otsaloma.nfoview
 ```
 ## misc:
 ```
