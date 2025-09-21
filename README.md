@@ -16,7 +16,7 @@ flatpak install flathub com.github.tchx84.Flatseal io.github.flattool.Warehouse
 ```
 paru
 ```
-sudo pacman -S --needed base-devel
+sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
