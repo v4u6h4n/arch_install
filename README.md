@@ -41,9 +41,18 @@ sudo pacman -S grub-btrfs
 sudo systemctl enable grub-btrfsd
 sudo systemctl start grub-btrfsd
 ```
-snap-pac:
+### snap-pac
+snap-pac automatically makes snapper snapshots before and after pacman transactions:
 ```
 sudo pacman -S snap-pac
+```
+add the below to `/etc/snap-pac.ini`:
+```
+[boot]
+snapshot = True
+
+[root]
+snapshot = True
 ```
 snap-pac-grub:
 ```
