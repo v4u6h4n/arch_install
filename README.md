@@ -24,24 +24,24 @@ cd ~/
 rm -rf paru
 ```
 ## system restore
-snapper:
+**snapper**
 ```
 sudo pacman -S snapper
 sudo snapper -c boot create-config /boot
 sudo snapper -c home create-config /home
 sudo snapper -c root create-config /
 ```
-brfs-assistant
+**brfs-assistant**
 ```
 paru -S btrfs-assistant
 ```
-grub-btrfs:
+**grub-btrfs**
 ```
 sudo pacman -S grub-btrfs
 sudo systemctl enable grub-btrfsd
 sudo systemctl start grub-btrfsd
 ```
-### snap-pac
+**snap-pac**
 Pacman hook to automatically makes snapper snapshots before and after pacman transactions.
 ```
 sudo pacman -S snap-pac
@@ -54,7 +54,7 @@ snapshot = True
 [root]
 snapshot = True
 ```
-### snap-pac-grub:
+**snap-pac-grub**
 Pacman hook to automatically update GRUB entries after pacman transactions.
 ```
 paru -S snap-pac-grub
