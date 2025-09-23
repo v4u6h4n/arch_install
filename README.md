@@ -42,6 +42,7 @@ sudo systemctl enable grub-btrfsd
 sudo systemctl start grub-btrfsd
 ```
 **snap-pac**
+
 Pacman hook to automatically makes snapper snapshots before and after pacman transactions.
 ```
 sudo pacman -S snap-pac
@@ -55,6 +56,7 @@ snapshot = True
 snapshot = True
 ```
 **snap-pac-grub**
+
 Pacman hook to automatically update GRUB entries after pacman transactions.
 ```
 paru -S snap-pac-grub
