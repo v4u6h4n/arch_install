@@ -89,6 +89,7 @@ sudo pacman -S amd-ucode
 **virtual machine clients**
 ```
 sudo pacman -Syu --needed spice spice-gtk spice-protocol spice-vdagent gvfs-dnssd
+sudo reboot now
 ```
 To share a folder:
 1. Share `<folder name>` in virtual machine application settings.
