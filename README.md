@@ -60,6 +60,11 @@ Pacman hook to automatically update GRUB entries after pacman transactions.
 ```
 paru -S --noconfirm snap-pac-grub
 ```
+**snapper-rollback**
+Rollback to snapshots from the `grub-btrfs` snapshot menu.
+```
+paru S --noconfirm snapper-rollback
+```
 ## general
 content creation:
 ```
