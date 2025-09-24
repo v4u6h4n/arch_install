@@ -86,3 +86,10 @@ flatpak install flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gn
 ```
 sudo pacman -S amd-ucode
 ```
+**virtual machine clients**
+```
+sudo pacman -Syu --needed spice spice-gtk spice-protocol spice-vdagent gvfs-dnssd
+```
+To share a folder:
+1. Share `<folder name>` in virtual machine application settings.
+2. Bookmark `webdav://127.0.0.1:9843/<folder name>` in Dolphin.
