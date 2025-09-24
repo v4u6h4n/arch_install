@@ -2,7 +2,7 @@
 ## firewall
 ufw:
 ```
-sudo pacman -S ufw
+sudo pacman -S --noconfirm ufw
 sudo ufw default deny
 sudo ufw enable
 sudo systemctl enable ufw
