@@ -93,3 +93,8 @@ sudo reboot now
 To share a folder:
 1. Share `<folder name>` in virtual machine application settings.
 2. Bookmark `webdav://127.0.0.1:9843/<folder name>` in Dolphin.
+## boot
+Add this line to `/etc/default/gub`:
+```
+GRUB_TOP_LEVEL="/boot/<kernel-filename>"
+```
