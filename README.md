@@ -11,8 +11,8 @@ sudo systemctl start ufw
 ## package management:
 **flatpak**
 ```
-sudo pacman -S flatpak
-flatpak install flathub com.github.tchx84.Flatseal io.github.flattool.Warehouse
+sudo pacman -S --noconfirm flatpak
+flatpak install -y flathub com.github.tchx84.Flatseal io.github.flattool.Warehouse
 ```
 **paru**
 ```
@@ -26,18 +26,17 @@ rm -rf paru
 ## system restore
 **snapper**
 ```
-sudo pacman -S snapper
-sudo snapper -c boot create-config /boot
-sudo snapper -c home create-config /home
+sudo pacman -S --noconfirm snapper
 sudo snapper -c root create-config /
+sudo snapper -c home create-config /home
 ```
 **brfs-assistant**
 ```
-paru -S btrfs-assistant
+paru -S --noconfirm btrfs-assistant
 ```
 **grub-btrfs**
 ```
-sudo pacman -S grub-btrfs
+sudo pacman -S --noconfirm grub-btrfs
 sudo systemctl enable grub-btrfsd
 sudo systemctl start grub-btrfsd
 ```
@@ -45,7 +44,7 @@ sudo systemctl start grub-btrfsd
 
 Pacman hook to automatically makes snapper snapshots before and after pacman transactions.
 ```
-sudo pacman -S snap-pac
+sudo pacman -S --noconfirm snap-pac
 ```
 add the below to `/etc/snap-pac.ini`:
 ```
@@ -59,28 +58,28 @@ snapshot = True
 
 Pacman hook to automatically update GRUB entries after pacman transactions.
 ```
-paru -S snap-pac-grub
+paru -S --noconfirm snap-pac-grub
 ```
 ## general
 content creation:
 ```
-flatpak install flathub com.core447.StreamController com.obsproject.Studio
+flatpak install -y flathub com.core447.StreamController com.obsproject.Studio
 ```
 internet:
 ```
-flatpak install flathub com.discordapp.Discord org.mozilla.firefox
+flatpak install -y flathub com.discordapp.Discord org.mozilla.firefox
 ```
 media:
 ```
-flatpak install flathub org.fooyin.fooyin
+flatpak install -y flathub org.fooyin.fooyin
 ```
 productivity:
 ```
-flatpak install flathub org.gimp.GIMP org.inkscape.Inkscape org.libreoffice.LibreOffice
+flatpak install -y flathub org.gimp.GIMP org.inkscape.Inkscape org.libreoffice.LibreOffice
 ```
 utilities:
 ```
-flatpak install flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox io.otsaloma.nfoview
+flatpak install -y flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox io.otsaloma.nfoview
 ```
 ## misc:
 ```
