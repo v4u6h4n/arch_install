@@ -87,7 +87,7 @@ sudo pacman -S amd-ucode
 ```
 **virtual machine clients**
 ```
-sudo pacman -Syu --needed spice spice-gtk spice-protocol spice-vdagent gvfs-dnssd
+sudo pacman -Syu --needed --noconfirm spice spice-gtk spice-protocol spice-vdagent gvfs-dnssd
 sudo reboot now
 ```
 To share a folder:
