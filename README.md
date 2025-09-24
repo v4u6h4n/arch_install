@@ -9,14 +9,14 @@ sudo systemctl enable ufw
 sudo systemctl start ufw
 ```
 ## package management:
-flatpak
+**flatpak**
 ```
 sudo pacman -S flatpak
 flatpak install flathub com.github.tchx84.Flatseal io.github.flattool.Warehouse
 ```
-paru
+**paru**
 ```
-sudo pacman -S --needed base-devel git
+sudo pacman -S --needed --noconfirm base-devel git
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
