@@ -95,7 +95,7 @@ paru -S --noconfirm visual-studio-code-bin
 ```
 **research**
 ```
-
+paru -S --noconfirm zotero-bin
 ```
 utilities:
 ```
