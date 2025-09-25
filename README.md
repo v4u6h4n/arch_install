@@ -89,9 +89,18 @@ productivity:
 ```
 flatpak install -y flathub org.gimp.GIMP org.inkscape.Inkscape org.libreoffice.LibreOffice
 ```
+**development**
+```
+paru -S --noconfirm visual-studio-code-bin
+```
+**research**
+```
+
+```
 utilities:
 ```
-flatpak install -y flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox io.otsaloma.nfoview
+flatpak install -y flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox
+# io.otsaloma.nfoview
 ```
 ## misc:
 Dotfiles
