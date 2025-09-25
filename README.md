@@ -78,6 +78,7 @@ flatpak install -y flathub com.core447.StreamController com.obsproject.Studio
 ```
 internet:
 ```
+paru -S --noconfirm mullvad-vpn-bin
 flatpak install -y flathub com.discordapp.Discord org.mozilla.firefox
 ```
 media:
