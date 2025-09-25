@@ -1,4 +1,6 @@
 # arch_install
+## archinstall
+1.
 ## firewall
 ufw:
 ```
