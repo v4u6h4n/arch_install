@@ -102,6 +102,9 @@ utilities:
 flatpak install -y flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox
 # io.otsaloma.nfoview
 ```
+```
+sudo pacman -S --noconfirm rsync mkvtoolnix-cli
+```
 ## misc:
 Dotfiles
 ```
