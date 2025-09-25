@@ -83,6 +83,7 @@ flatpak install -y flathub com.discordapp.Discord org.mozilla.firefox
 ```
 media:
 ```
+sudo pacman -S --noconfirm mpv
 flatpak install -y flathub org.fooyin.fooyin
 ```
 productivity:
@@ -110,9 +111,10 @@ Dotfiles
 ```
 sudo pacman -S --noconfirm yadm
 ```
-Drivers:
+drivers and hardware management:
 ```
 sudo pacman -S amd-ucode
+flatpak install -y flathub org.openrgb.OpenRGB
 ```
 **virtual machine clients**
 ```
