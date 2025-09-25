@@ -10,6 +10,10 @@ sudo ufw enable
 sudo systemctl enable ufw
 sudo systemctl start ufw
 ```
+## mounting drives
+add encrypted drive mounts:
+1. 
+com.bitwarden.desktop
 ## package management:
 **flatpak**
 ```
