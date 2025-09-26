@@ -103,6 +103,7 @@ utilities:
 flatpak install -y flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox
 # io.otsaloma.nfoview
 ```
+flatpak install flathub org.kde.okular
 ```
 sudo pacman -S --noconfirm rsync mkvtoolnix-cli
 ```
