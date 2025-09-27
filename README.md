@@ -82,10 +82,10 @@ sudo pacman -S --noconfirm qbittorrent
 paru -S --noconfirm mullvad-vpn-bin
 flatpak install -y flathub com.discordapp.Discord io.gitlab.librewolf-community org.mozilla.firefox
 ```
-media:
+**media**
 ```
 sudo pacman -S --noconfirm mpv
-flatpak install -y flathub org.fooyin.fooyin
+flatpak install -y flathub org.fooyin.fooyin org.kde.gwenview
 ```
 productivity:
 ```
