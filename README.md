@@ -104,6 +104,7 @@ utilities:
 flatpak install -y flathub org.bunkus.mkvtoolnix-gui io.github.peazip.PeaZip org.gnome.Boxes me.iepure.devtoolbox
 # io.otsaloma.nfoview
 flatpak run --command=install2dolphin io.github.peazip.PeaZip
+flatpak install flathub org.kde.kalk
 ```
 move files in `/home/v4u6h4n/.local/share/kservices5` to `/home/v4u6h4n/.local/share/kio/servicemenus/`.
 3. Make files executable.
